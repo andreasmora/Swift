@@ -1,0 +1,28 @@
+
+// COMANDO IF E IF ELSE
+
+import UIKit
+
+var nome: String = "Rafinha"
+var idade: Int = 18
+var solteiro: Bool = true
+
+if idade >= 18 {
+    print("\(nome) é maior de idade e pode tirar carta de motorista!!")
+} else if (idade <= 18) {
+    print("\(nome) ainda é menor de idade e nao podera tirar carta de motorista")
+}
+
+if nome == "Rafinha" {
+    print("\(nome) é irmao da Aline e filho da Dona Ester!!")
+} else {
+    print("\(nome) nao é irmao da Aline e nem filho da Dona Ester!!")
+}
+
+if solteiro == true {
+    print("\(nome) nao tem namorada!!")
+} else  {
+    print("\(nome) tem uma linda namorada!!")
+}
+
+
