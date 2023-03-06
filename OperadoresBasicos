@@ -1,0 +1,46 @@
+
+import UIKit
+
+// OPERADORES ARITMETICOS
+// +, -, *, /
+
+var numero1 = 10
+var numero2 = 30
+
+var soma: Int = numero1 + numero2
+var subtracao: Int = numero1 - numero2
+var multiplicacao: Int = numero1 * numero2
+var divisao: Int = numero1 / numero2
+
+print(soma)
+print(subtracao)
+print(multiplicacao)
+print(divisao)
+
+
+// OPERADOR MODULO
+// %
+var modulo: Int = numero2 % numero1
+var modulo2: Int = 100 % 40
+var modulo3: Int = 11 % 2
+print(modulo)
+print(modulo2)
+print(modulo3)
+
+
+// OPERANDO E ASSINALANDO
+// +=, -=, *=, /=
+
+var numeroA: Int = 10
+var numeroB: Int = 10
+
+numeroA += numeroB
+numeroA -= numeroB
+numeroA *= numeroB
+numeroA /= numeroB
+
+numeroA
+numeroB
+numero1
+numero2
+
