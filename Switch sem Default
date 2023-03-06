@@ -1,0 +1,35 @@
+
+
+// CRIANDO UM SWITCH SEM DEFAULT
+
+import UIKit
+
+var careca: Bool = false
+
+switch careca {
+case true:
+    print("Essa pessoa é careca")
+case false:
+    print("Essa pessoa nao é careca")
+}
+print()
+
+var apple: Bool = true
+
+switch apple {
+case true:
+    print("Eu uso um Iphone")
+case false:
+    print("Eu uso Android")
+}
+
+print()
+var casado: Bool = true
+
+switch casado {
+case true:
+    print("Minha esposa é a aline")
+case false:
+    print("Nao tenho uma esposa e nem uma namorada!!!")
+   
+}
