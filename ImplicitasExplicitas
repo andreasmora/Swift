@@ -1,0 +1,28 @@
+import UIKit
+
+// DECLARACAO IMPLICITA
+// NAO PODEMOS DECLARAR UMA FLOAT DE FORMA IMPLICITA, DARÁ ERRO. ELE VAI ENTENDER QUE SERA UMA DOUBLE.
+
+var meuNome = "Andre" // String
+var minhaIdade = 47 // Int
+var minhaNamorada = "Aline" // String
+var peso = 74.5 // Double
+var andreMasculino = true // bool
+
+// DECLARACAO EXPLICITA
+
+var nome : String = "Andre" // String
+var numero : Int = 10 // Int
+var cachorro : String = "Jansen" // String
+var meuPeso : Double = 74.6 // Double
+var minhaAltura : Float = 1.76 // Float
+var alineFeminino : Bool = true // Bool
+
+print(nome, numero, cachorro)
+
+let amor : String = "Alininha"
+print(amor)
+let sexoAmor : String = "Feminino"
+print(sexoAmor)
+
+ 
