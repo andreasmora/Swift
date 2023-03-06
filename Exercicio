@@ -1,0 +1,19 @@
+// EXERCICIO DE PRATICA
+
+// UTILIZANDO OS OPERADORES && OU ||, E O MECANISMO DAS CONDICIONAIS ELSE IF, CRIE A LOGICA
+// SIMPLES QUE DEFINA SE UMA CRIANCA PODE IR EM UM TOBOAGUA
+
+import UIKit
+
+var peso: Int = 75
+var altura: Int = 125
+
+
+if peso >= 40 && altura >= 100 {
+    print("Seu filho pode ir no toboagua!!")
+} else if peso >= 60 || altura >= 150 {
+    print("Seu filho tambem pode ir no toboagua")
+} else {
+    print("Seu filho nao pode ir no toboagua devido ao peso, \(peso) e a altura, \(altura) nao corresponderem a placa!!!")
+}
+
