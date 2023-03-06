@@ -1,0 +1,21 @@
+
+// FAZENDO CALCULOS SIMPLES EM SWIFT
+
+import UIKit
+
+let numero1 = 40
+let numero2 = 20
+
+var soma = (40 + 20)
+var subtracao = (40 - 20)
+var divisao = (40 / 20)
+var multiplicacao = (40 * 20)
+
+print("Meu primeiro numero é: \(numero1) somando com meu segundo numero: \(numero2), dá: \(numero1 + numero2)")
+
+print("Meu primeiro numero é: \(numero1) subtraindo com meu segundo numero: \(numero2), dá: \(numero1 - numero2)")
+
+print("Meu primeiro numero é: \(numero1) dividindo com meu segundo numero: \(numero2), dá: \(numero1 / numero2)")
+
+print("Meu primeiro numero é: \(numero1) multiplicando com meu segundo numero: \(numero2) dá: \(numero1 * numero2)")
+
