@@ -1,0 +1,10 @@
+
+// APRENNDENDO INTEIROS EM SWIFT ( INTEGER )
+
+import UIKit
+
+var idade = 36
+
+idade = 36
+
+print(idade)
