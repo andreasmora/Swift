@@ -1,0 +1,32 @@
+
+// CRIANDO ARRAYS DE EMOJIS
+
+import UIKit
+
+var emojis = ["🤣", "🥰", "🤨", "😎", "🤪"]
+emojis.count // CONTAGEM DE EMOJIS
+emojis.first // PRIMEIRO EMOJI DENTRO DO ARRAY
+emojis.last // ULTIMO EMOJI DENTRO DA ARRAY
+
+emojis.append("😘") // INSERINDO UM EMOJI NA ARRAY
+emojis.count  // CONTANDO OS EMOJIS
+emojis.indices // INDICE DE EMOJIS
+emojis[0] // EMOJI NA POSICAO 02 DENTRO DA ARRAY
+emojis[1]
+emojis[2]
+emojis[3]
+emojis[4]
+
+emojis[emojis.count - 1]
+emojis[emojis.count - 2]
+
+// MUDANDO UM EMOJI DENTRO DA ARRAY
+emojis
+emojis[0] = "😡" // MUDANDO O EMOJI DA POSICAO 0 DENTRO DA ARRAY PARA O EMOJI DE BRAVO
+emojis
+emojis[5] = "😈"
+emojis
+emojis.count
+emojis[emojis.count - 1]
+
+
