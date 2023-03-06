@@ -1,0 +1,37 @@
+
+
+// .CONTAINS & INDEX OF
+// .CONTAINS - BASICAMENTE CHECA SE A SUA ARRAY TEM BASICAMENTE O ELEMENTO QUE VC ESTA PROCURANDO.
+// INDEX OF - ELE PEGA E FAZ UM FILTRO GERAL, UM SCANEAMENTO GERAL DA SUA ARRAY
+
+import UIKit
+
+var numerosTestes: [Int] = [3, 5, 7, 9, 11, 13, 15]
+numerosTestes.count
+numerosTestes.first
+numerosTestes.last
+
+numerosTestes.append(1)
+numerosTestes.insert(17, at: 7)
+numerosTestes.remove(at: 7)
+numerosTestes
+
+numerosTestes.contains(3) // verifica se contem esse numero na array e retorna true or false
+numerosTestes.contains(2) // verifica se contem e esse numero na array, como nao tem retorna false
+
+numerosTestes
+numerosTestes.remove(at: 7)
+numerosTestes
+numerosTestes.append(17)
+numerosTestes.contains(17)
+numerosTestes.contains(16)
+print("Array de numeros impares: \(numerosTestes)")
+
+// INDEX OF, MUDOU PARA A FUNCAO FIRSTINDEX --- ele te permite basicamente descobrir qual é o index de um determinado elemento dentro da array.
+
+numerosTestes
+numerosTestes.firstIndex(of: 3) // contem na array
+numerosTestes.firstIndex(of: 2) // nao comtem na array. Nil (Significa que nao tem valor ) ausencia de valor..
+numerosTestes.firstIndex(of: 11)
+
+
