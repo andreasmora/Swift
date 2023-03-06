@@ -1,0 +1,45 @@
+// SWITCH
+// UMA FORMA DE ESCREVER A CONDICIONAL PARA DIVERSAS CONDICIONAIS
+
+import UIKit
+
+var vogal: String = "a"
+
+switch vogal {
+case "a":
+    print("É uma vogal de letra, \(vogal)")
+case "e":
+    print("É uma vogal de letra, \(vogal)")
+case "i":
+    print("É uma vogal de letra, \(vogal)")
+case "o":
+    print("É uma vogal de letra, \(vogal)")
+case "u":
+    print("É uma vogal de letra, \(vogal)")
+    
+default:
+    print("Nao é uma vogal e sim uma consoante!!!")
+}
+
+print()
+var diaDaSemana = "2"
+
+switch diaDaSemana {
+case "1":
+    print("Hoje é Domingo!!!")
+case "2":
+    print("Hoje é Segunda Feira!!!")
+case "3":
+    print("Hoje é Terca Feira!!!")
+case "4":
+    print("Hoje é Quarta Feira!!!")
+case "5":
+    print("Hoje é Quinta Feira!!!")
+case "6":
+    print("Hoje é Sexta Feira!!!")
+case "7":
+    print("Hoje é Sabado")
+    
+default:
+    print("Nao é nenhum dia da semana!!!")
+}
