@@ -1,0 +1,16 @@
+
+import UIKit
+
+// TIPOS NUMERICOS
+
+var idade = 10
+var peso = 54.66924
+
+idade * Int(peso) // erro fez primeiro o que esta dentro dos parenteses e eliminou o que esta afrente do ponto
+
+Double(idade) * peso
+
+var numeroEscrito: String = "123"
+idade + Int(numeroEscrito)! // simbolo ! que dizer que isso esta ali, que é uma int e ela existe
+
+
