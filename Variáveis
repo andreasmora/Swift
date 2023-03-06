@@ -1,0 +1,41 @@
+
+// CRIANDO VARIAVEIS EM SWIFT
+
+import UIKit
+
+// VARIAVEIS
+var nome = "Andre"
+var namorada = "Aline"
+var idadeAndre = 47
+var idadeAline = 37
+var sexoAndre = "Masculino"
+var sexoAline = "Feminino"
+
+print(namorada)
+print(idadeAline)
+
+var nomeIrmao = "Fabio"
+var nomeIrma = "Priscila"
+var cunhado = "Rafinha"
+var sogrinha = "Ester"
+var vovo = "Eurides"
+var pai = "Waldinez"
+var mae = "Nadir"
+var idadePai = 73
+var idadeMae = 73
+
+print(idadePai)
+print(idadeMae)
+
+print(cunhado, sogrinha, vovo)
+print(nomeIrma, nomeIrmao)
+
+
+var cidade = "Sao Paulo"
+let ano = 1975
+
+//EXEMPLO DE INTERPOLACAO
+print("Eu nasci na cidade de: \(cidade), no ano de: \(ano)")
+
+// EXEMPLO DE CONCATENACAO
+print("Eu nasci na cidade de: " + cidade + ", e no ano de: " + String(ano) + ".")
