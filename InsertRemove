@@ -1,0 +1,15 @@
+
+// COMANDO INSERT E REMOVE DENTRO DE ARRAY EM INDEX EXCLUSIVOS
+
+import UIKit
+
+var emojisBravos = ["😤", "😡", "🤬", "🤨"]
+emojisBravos.count
+emojisBravos.append("😏")
+emojisBravos.count
+
+// USANDO INSERT E REMOVE
+emojisBravos.insert("😂", at: 1) // inserindo um emoji na posicao 01 da array
+emojisBravos.remove(at: 0)
+emojisBravos.count
+print(emojisBravos)
