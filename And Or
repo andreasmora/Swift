@@ -1,0 +1,29 @@
+
+// OPERADORES AND(&&) , OR(II)
+// OPERADORES E          OU
+
+
+import UIKit
+
+var idade = 24
+idade >= 18
+idade <= 24
+
+if idade >= 17 && idade <= 24 { // PARA DAR O RESULTADO CORRETO, AMBAS TEM QUE SEREM VERDADEIRAS
+    print("esta informacao esta sendo executada pq toda a condicional é verdadeira nesse caso!!")
+}
+
+if idade >= 17 || idade <= 24 { // SE UM DOS RESULTADOS FOREM VERDADEIRO, ELE IRA EXECUTAR O COMANDO
+    print("este é para o operador Or")
+}
+print()
+var apple:  String = "Swift"
+var android: String = "Kotlin"
+
+if apple == apple {
+    print("\(apple), é uma linguagem para produtos Apple!!")
+}
+if android == android {
+    print("\(android), é uma linguagem para produtos Android!!")
+}
+
