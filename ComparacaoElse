@@ -1,0 +1,24 @@
+
+//COMPARACAO
+
+import UIKit
+
+var diaDoPagamento: Bool = true
+var dinheiroNaCarteira: Int = 0
+var precoDaTelevisao: Int = 4500
+var nomeComprador: String = "Andre Moraes"
+
+if diaDoPagamento {
+    dinheiroNaCarteira += 6000
+}
+if dinheiroNaCarteira >= 4500 {
+    if nomeComprador == "Andre Moraes" {
+        precoDaTelevisao = 4500
+        dinheiroNaCarteira -= precoDaTelevisao
+    }
+    
+    print("Eu consigo comprar a televisao e vou ficar com apenas na carteira: \(dinheiroNaCarteira)")
+}
+
+
+
