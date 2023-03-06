@@ -1,0 +1,16 @@
+
+//CRIANDO CONSTANTES EM SWIFT (LET ) NAO É MUTAVEL
+
+import UIKit
+
+//CONSTANTES
+
+let nome = "Andre"
+let namorada = "Aline"
+let amorVida = "Aline"
+let cachorro = "Jansen"
+
+let idaTrabalho = "Spotify"
+let voltaTrabalho = "Apple Music"
+
+
