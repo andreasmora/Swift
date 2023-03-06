@@ -1,0 +1,34 @@
+
+// Em Swift, as variáveis e constantes representam Data Types (tipos de dados) específicos. Esses Data Types definem que tipo de
+// informação que as variáveis e constantes podem guardar. Esses tipos de dados são sempre escritos com letra Maiúscula em
+// Swift.
+
+/* Tipos Básicos em Swift:
+ • String - Sequência de Caracteres
+ • Int - Números Inteiros
+ • Float - Valores Decimais
+ • Double - Valores Decimais (Mais Precisos, mas que também consomem mais memória)
+ - bool -  true/false (Verdadeiro ou Falso)
+ Você pode tanto permitir que o compilador compreenda Implicitamente ou dizê-lo Explicitamente que tipo de dado uma
+ determinada variável ou constante terá.
+ */
+
+/*Declarações Implícitas
+
+ Este é o exemplo de uma Declaração Implícita pois ao criar a variável não estamos dizendo ao compilador que tipo de dado será guardado ali. (O Compilador, então, está inferindo que texto é uma String baseado na informação que estamos
+ disponibilizando, que no caso é a sequencia de caracteres Olá, playground )
+ */
+
+//IMPLICITA
+var texto = "Ola Pedro"
+print(texto)
+
+/*
+Declarações Explícitas Declarações explícitas são quando nós fisicamente escrevemos aquele Data Type ou Tipo de Dado que aquela variável ou constante que estamos criando terá. É importante lembrar que para que uma variável ou constante seja considerada Explícita, a
+declaração do tipo de dado sempre virá antes do sinal de =
+Aqui está um exemplo de Declaração Explícita pois estamos dizendo que a variável numero4 é uma Int ao usar : depois da
+declaração da variável. Você pode entender o sinal : como um significado de representa o tipo de dado então quando lemos esta linha, falamos "a variável
+numero4 é do Tipo de Dado Int, ou Inteiros"
+*/
+
+
