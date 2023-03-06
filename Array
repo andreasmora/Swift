@@ -1,0 +1,104 @@
+// ARRAYS
+
+
+import UIKit
+
+// FORMAS IMPLICITAS DE CRIAR AS ARRAYS.................
+
+var datasCopaMundo = [1958, 1962, 1970, 1994, 2002]
+datasCopaMundo.count
+print(datasCopaMundo)
+
+var idadeFamilia = [47, 37, 19, 80, 67]
+idadeFamilia.count
+print(idadeFamilia)
+
+var produtosQueGosto = ["Macbook Pro", "Apple Watch", "Airpod Pro", "Iphone 14 Pro"]
+produtosQueGosto.count
+print(produtosQueGosto)
+
+var tenis = ["Vans", "Adidas", "All Star", "Vertz"]
+var mochilas = ["Kanken", "Jansport", "Hershal"]
+var hooby = ["Starbucks", "Outback", "Jhonny Rockets", "Apple Bees"]
+var streamings = ["Apple Tv", "Hbo Max", "Disney Plus", "Netflix"]
+
+tenis.count
+mochilas.count
+hooby.count
+streamings.count
+
+print()
+print("Quantidades de Arrays abaixo: ")
+print("Quantidade de array de Tenis: ", tenis)
+print("Quantidade de array de Mochilas: ", mochilas)
+print("Quantidade de array de Hooby: ", hooby)
+print("Quantidade de array de Streamings: ", streamings)
+
+print()
+print("Tenis", tenis.count)
+print("Mochilas", mochilas.count)
+print("Hooby", hooby.count)
+print("Streamings", streamings.count)
+
+
+//FORMAS EXPLICITAS DE CRIAR ARRAYS.........................
+
+
+var tenisGosto:      [String] = ["Vans", "Adidas", "All Star", "Vertz"]
+var mochilasGosto:   [String] = ["Kanken", "Jansport", "Hershal"]
+var hoobyGosto:      [String] = ["Starbucks", "Outback", "Jhonny Rockets", "Apple Bees"]
+var streamingsGosto: [String] = ["Apple Tv", "Hbo Max", "Disney Plus", "Netflix"]
+
+tenisGosto.count
+mochilasGosto.count
+hoobyGosto.count
+streamingsGosto.count
+
+var dadosAline:    [Int] = [24, 12, 1985, 2023, 38]
+var dadosAndre:    [Int] = [03, 08, 1975, 2023, 48]
+var dadosFabio:    [Int] = [19, 11, 1977, 2023, 46]
+var dadosPriscila: [Int] = [07, 09, 1986, 2023, 39]
+
+dadosAndre.append(Int(dadosAndre.count)) // CONTA QTOS ELEMENTOS TEM DENTRO DA PROPRIA ARRAY
+
+dadosAline.append(dadosAndre.count)
+dadosAndre.append(dadosAline.count)
+
+dadosFabio.append(dadosPriscila.count)
+dadosPriscila.append(dadosFabio.count)
+
+dadosAline.count
+dadosAndre.count
+dadosFabio.count
+dadosPriscila.count
+
+// INSERINDO O ULTIMO DADO REFERENTE AO PESO DE CADA PESSOAS DENTRO DA ARRAY.........
+dadosAline.append(65)
+dadosAndre.append(70)
+dadosFabio.append(85)
+dadosPriscila.append(73)
+
+
+let signoAline:    [String] = ["Capricornio"]
+let signoAndre:    [String] = ["Leao"]
+let signoRafael:   [String] = ["Escorpiao"]
+let signoVo:       [String] = ["Leao"]
+let signoSogra:    [String] = ["Cancer"]
+let signoFabio:    [String] = ["Escorpiao"]
+let signoPriscila: [String] = ["Virgem"]
+let signoPai:      [String] = ["Peixes"]
+let signoMae:      [String] = ["Leao"]
+
+
+// ARRAY DE DOUBLES.................
+var arrayDeDoubles: [Double] = [54.6, 89.7, 87.6, 45.7, 65.2]
+arrayDeDoubles.append(63.1)
+arrayDeDoubles.append(78.4)
+arrayDeDoubles.append(42.3)
+
+
+arrayDeDoubles.append(Double(arrayDeDoubles.count))
+
+print()
+print("Array de Doubles!!!")
+print(arrayDeDoubles)
