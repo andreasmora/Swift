@@ -1,0 +1,34 @@
+
+// CONDICIONAIS ELSE IF --- SE NAO
+// IF
+// ELSE IF
+// ELSE IF
+// ELSE IF
+// ELSE
+
+
+import UIKit
+
+var pesoDoLutador: Float = 50
+pesoDoLutador <= 85
+
+if pesoDoLutador <= 56.7 {
+    print("Peso Mosca e seu peso é: \(pesoDoLutador)")
+} else if pesoDoLutador <= 61.2 {
+    print("Peso Galo  e seu peso é: \(pesoDoLutador)")
+} else if pesoDoLutador <= 65.8 {
+    print("Peso Pena  e seu peso é: \(pesoDoLutador)")
+} else if pesoDoLutador <= 70.3 {
+    print("Peso Leve  e seu peso é: \(pesoDoLutador)")
+} else if pesoDoLutador <= 77.6 {
+    print("Peso Meio Medio e seu peso é: \(pesoDoLutador)")
+} else if pesoDoLutador <= 83.9 {
+    print("Peso Medio  e seu peso é: \(pesoDoLutador)")
+} else if pesoDoLutador <= 94.0 {
+    print("Peso Meio Pesado e seu peso é: \(pesoDoLutador)")
+} else {
+    print("Peso Pesado e seu peso é: \(pesoDoLutador)")
+}
+
+
+
