@@ -1,0 +1,22 @@
+
+// APRENDENDO STRINGS
+
+import UIKit
+
+// STRING É UMA SEQUENCIA DE CARACTERES
+
+var primeiroNome = "Andre"
+var sobrenome = "Moraes"
+
+primeiroNome = "Andre"
+sobrenome = "Moraes"
+
+print(sobrenome)
+
+//CONCATENACAO
+
+print(primeiroNome + " " + sobrenome)
+
+//INTERPOLACAO
+
+print("Meu primeiro nome é: \(primeiroNome) e meu ultimo nome é: \(sobrenome) ")
